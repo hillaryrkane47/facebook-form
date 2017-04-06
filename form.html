@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>facebook-form</title>
+  <link rel="stylesheet" href="">
+  <style>
+    body {
+      padding: 20px;
+      font-family: arial;
+      font-size: .8rem;
+      max-width: 50%;
+    }
+    input {
+      width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form id="facebook-form" action="/events/editRsvpRow/travel-reservation-2761725" method="POST" onsubmit="return false;">
+
+  <h3>Arrival Details</h3>
+
+  Origin Airport <input type="text" name="origin_airport" /><br><br>
+  Arrival Airport <input type="text" name="arrival_airport" /><br><br>
+  Arrival Date
+    <input type="text" name="arrival_month" value="mm" />
+    <input type="text" name="arrival_day" value="dd" />
+    <input type="text" name="arrival_year" value="yyyy" /><br><br>
+  Departure Time
+    <select name="dropdown">
+      <option value=" - " selected></option>
+      <option value="morning">morning</option>
+      <option value="afternoon">afternoon</option>
+      <option value="evening">evening</option>
+    </select><br><br>
+
+  <h3>Departure Details</h3>
+
+  Departure Airport
+    <input type="text" name="departure_airport" /><br><br>
+  Return Airport
+    <input type="text" name="return_airport" /><br><br>
+  Departure Date
+    <input type="text" name="departure_month" value="mm" />
+    <input type="text" name="departure_day" value="dd" />
+    <input type="text" name="departure_year" value="yyyy" /><br><br>
+  Departure Time
+    <select name="dropdown">
+      <option value=" - " selected></option>
+      <option value="morning">morning</option>
+      <option value="afternoon">afternoon</option>
+      <option value="evening">evening</option>
+    </select><br><br>
+
+  <h3>Special Flight Requests - Other Details</h3>
+
+  Preferred Airline
+    <input type="text" name="preferred_airline" /><br><br>
+  Frequent Flyer Details
+    <input type="text" name="frequent_flyer_details" /><br><br>
+  I wish to use airline miles to upgrade on my own once ticketed
+    <select name="dropdown">
+      <option value=" - " selected></option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select><br><br>
+  Seat Preference
+    <select name="dropdown">
+      <option value=" - " selected></option>
+      <option value="window">window</option>
+      <option value="aisle">aisle</option>
+    </select><br><br>
+  Special Travel Meals / Requests<br>
+    <textarea rows="5" cols="50" name="special-travel-req">
+    </textarea><br><br>
+  Gender
+    <select name="dropdown">
+      <option value=" - " selected></option>
+      <option value="female">Male</option>
+      <option value="male">Female</option>
+      <option value="decline">Decline to say</option>
+    </select><br><br>
+  Birth Date
+    <input type="text" name="birth_month" value="mm" />
+    <input type="text" name="birth_day" value="dd" />
+    <input type="text" name="birth_year" value="yyyy" /><br><br>
+  Phone Number
+    <input type="text" name="phone_number" /><br><br>
+
+  <h3>Passport Information</h3>
+
+  Full Name on Passport<br>
+  (First, Middle, Last)
+    <input type="text" name="passport_name" /><br><br>
+  Country of Birth
+    <input type="text" name="birth_country" /><br><br>
+  Country of Citizenship
+    <input type="text" name="citizenship_country" /><br><br>
+  Passport Number
+    <input type="text" name="passport_number" /><br><br>
+  Passport Issue Date
+    <input type="text" name="pp_month" value="mm" />
+    <input type="text" name="pp_day" value="dd" />
+    <input type="text" name="pp_year" value="yyyy" /><br><br>
+  Country Issued
+    <input type="text" name="pp_country" /><br><br>
+  Issuing State
+    <input type="text" name="pp_state" /><br><br>
+
+ <h3>Ground Transportation</h3>
+
+ <p>Please note: Facebook will provide airport transfers in your arrival city, between teh airport and your hotel.</p><br><br>
+  <input type="radio" name="ground_transport" value="yes" />
+   Yes, I require ground transporation<br>
+  <input type="radio" name="ground_transport" value="no" />
+   No, I do not require ground transporation<br><br>
+
+ <h3>Hotel Request</h3>
+
+ <p>We would like to extend to all attendees arriving from outside of New York City two nights hotel within a close proximityto the Facebook Global Judging Events. Since the event begins atthe start of business on teh event day, we request that those coming from out of town arrive a day early - Facebook will cover your <strong>Check In Tuesday, June 6 / Check Out Thursday, June 8</strong>.  Payment of any additional hotel nights, beyond what is provided by Facebook, will be your responsibility.</p><br><br>
+  <input type="radio" name="hotel_request" value="yes" />
+   Yes, I will require accomodations<br>
+  <input type="radio" name="hotel_request" value="no" />
+   No, I do not require accomodations
+
+
+  </form>
+</body>
+
+</html>
+
+
